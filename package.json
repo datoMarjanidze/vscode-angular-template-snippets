@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/datoMarjanidze/vscode-angular-template-snippets"
   },
-  "icon": "./angular.svg",
+  "icon": "./angular.jpg",
   "author": "Dato Marjanidze <datomarjanidze10@gmail.com",
   "publisher": "datomarjanidze",
   "license": "License is provided in the root directory",
