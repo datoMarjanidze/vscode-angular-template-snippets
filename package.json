@@ -1,0 +1,23 @@
+{
+  "name": "vscode-angular-template-snippets",
+  "version": "1.0.0",
+  "description": "VS Code snippets for Angular templates, that can be used in HTML files",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/datoMarjanidze/vscode-angular-template-snippets"
+  },
+  "icon": "./angular.svg",
+  "author": "Dato Marjanidze <datomarjanidze10@gmail.com",
+  "publisher": "datomarjanidze",
+  "license": "License is provided in the root directory",
+  "displayName": "VS Code Angular Template Snippets",
+  "categories": ["Snippets"],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets.json"
+      }
+    ]
+  }
+}

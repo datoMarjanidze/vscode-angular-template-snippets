@@ -1,0 +1,233 @@
+{
+  "NgClass": {
+    "prefix": "ngClass",
+    "body": "[ngClass]=\"${0:expression}\""
+  },
+  "NgClassSingle": {
+    "prefix": "[class.name]",
+    "body": "[class.${1:name}]=\"${0:expression}\""
+  },
+  "NgComponentOutlet": {
+    "prefix": "*ngComponentOutlet",
+    "body": "*ngComponentOutlet=\"${0:componentTypeExpression}\""
+  },
+  "NgComponentOutletInjector": {
+    "prefix": "ngComponentOutletInjector",
+    "body": "ngComponentOutletInjector=\"${0:expression}\""
+  },
+  "NgComponentOutletContent": {
+    "prefix": "ngComponentOutletContent",
+    "body": "ngComponentOutletContent=\"${0:expression}\""
+  },
+  "NgComponentOutletNgModuleFactory": {
+    "prefix": "ngComponentOutletNgModuleFactory",
+    "body": "ngComponentOutletNgModuleFactory=\"${0:expression}\""
+  },
+  "NgFor": {
+    "prefix": "*ngFor",
+    "body": "*ngFor=\"let ${1:item} of ${0:items}\""
+  },
+  "NgForWithIndex": {
+    "prefix": "*ngForWithIndex",
+    "body": "*ngFor=\"let ${1:item} of ${2:items}; index as ${0:i}\""
+  },
+  "NgForWithCount": {
+    "prefix": "*ngForWithCount",
+    "body": "*ngFor=\"let ${1:item} of ${2:items}; count as ${0:c}\""
+  },
+  "NgForWithFirst": {
+    "prefix": "*ngForWithFirst",
+    "body": "*ngFor=\"let ${1:item} of ${2:items}; first as ${0:isFirst}\""
+  },
+  "NgForWithLast": {
+    "prefix": "*ngForWithLast",
+    "body": "*ngFor=\"let ${1:item} of ${2:items}; last as ${0:isLast}\""
+  },
+  "NgForWithEven": {
+    "prefix": "*ngForWithEven",
+    "body": "*ngFor=\"let ${1:item} of ${2:items}; even as ${0:isEven}\""
+  },
+  "NgForWithOdd": {
+    "prefix": "*ngForWithOdd",
+    "body": "*ngFor=\"let ${1:item} of ${2:items}; odd as ${0:isOdd}\""
+  },
+  "NgForWithTrackBy": {
+    "prefix": "*ngForWithTrackBy",
+    "body": "*ngFor=\"let ${1:item} of ${2:items}; trackBy: ${0:trackByFn}\""
+  },
+  "NgForOf": {
+    "prefix": "[ngForOf]",
+    "body": "[ngForOf]=\"${0:items}\""
+  },
+  "NgForTrackBy": {
+    "prefix": "[ngForTrackBy]",
+    "body": "[ngForTrackBy]=\"${0:trackByFn}\""
+  },
+  "NgIf": {
+    "prefix": "*ngIf",
+    "body": "*ngIf=\"${0:condition}\""
+  },
+  "NgIfElse": {
+    "prefix": "*ngIfElse",
+    "body": "*ngIf=\"${1:condition} else ${0:elseBlock}\""
+  },
+  "NgIfThenElse": {
+    "prefix": "*ngIfThenElse",
+    "body": "*ngIf=\"${1:condition}; then ${2:thenBlock} else ${0:elseBlock}\""
+  },
+  "NgIfAs": {
+    "prefix": "*ngIfAs",
+    "body": "*ngIf=\"${1:condition} as ${0:value}\""
+  },
+  "NgIfAsync": {
+    "prefix": "*ngIfAsync",
+    "body": "*ngIf=\"${0:condition} | async\""
+  },
+  "NgIfAsyncAs": {
+    "prefix": "*ngIfAsyncAs",
+    "body": "*ngIf=\"${1:condition} | async as ${0:value}\""
+  },
+  "NgPlural": {
+    "prefix": "[ngPlural]",
+    "body": "[ngPlural]=\"${0:value}\""
+  },
+  "NgPluralCase": {
+    "prefix": "ngPluralCase",
+    "body": "ngPluralCase=\"${0:value}\""
+  },
+  "NgStyle": {
+    "prefix": "[ngStyle]",
+    "body": "[ngStyle]=\"{${1:klass}: ${0:expression}}\""
+  },
+  "NgSwitch": {
+    "prefix": "[ngSwitch]",
+    "body": "[ngSwitch]=\"${0:switch_expression}\""
+  },
+  "NgSwitchCase": {
+    "prefix": "*ngSwitchCase",
+    "body": "*ngSwitchCase=\"${0:match_expression}\""
+  },
+  "NgSwitchDefault": {
+    "prefix": "*ngSwitchDefault",
+    "body": "*ngSwitchDefault"
+  },
+  "NgTemplateOutlet": {
+    "prefix": "*ngTemplateOutlet",
+    "body": "*ngTemplateOutlet=\"${0:templateRefExp}\""
+  },
+  "NgTemplateOutletWithContext": {
+    "prefix": "*ngTemplateOutletWithContext",
+    "body": "*ngTemplateOutlet=\"${1:templateRefExp}; context: ${0:contextExp}\""
+  },
+
+  "FormArrayName": {
+    "prefix": "formArrayName",
+    "body": "formArrayName=\"${0:name}\""
+  },
+  "FormControlDirective": {
+    "prefix": "[formControl]",
+    "body": "[formControl]=\"${0:control}\""
+  },
+  "FormControlName": {
+    "prefix": "formControlName",
+    "body": "formControlName=\"${0:name}\""
+  },
+  "FormGroupDirective": {
+    "prefix": "[formGroup]",
+    "body": "[formGroup]=\"${0:expression}\""
+  },
+  "FormGroupName": {
+    "prefix": "formGroupName",
+    "body": "formGroupName=\"${0:name}\""
+  },
+  "NgModel": {
+    "prefix": "ngModel",
+    "body": "ngModel"
+  },
+  "NgModelOneWayPropertyBinding": {
+    "prefix": "[ngModel]",
+    "body": "[ngModel]=\"${0:expression}\""
+  },
+  "NgModelTwoWayBinding": {
+    "prefix": "[(ngModel)]",
+    "body": "[(ngModel)]=\"${0:expression}\""
+  },
+  "NgModelOptions": {
+    "prefix": "[ngModelOptions]",
+    "body": "[ngModelOptions]=\"{$0}\""
+  },
+  "NgModelChange": {
+    "prefix": "(ngModelChange)",
+    "body": "(ngModelChange)=\"${0:expression}\""
+  },
+  "NgSubmit": {
+    "prefix": "(ngSubmit)",
+    "body": "(ngSubmit)=\"${0:expression}\""
+  },
+  "NgModelGroup": {
+    "prefix": "ngModelGroup",
+    "body": "ngModelGroup=\"${0:name}\""
+  },
+  "NgValue": {
+    "prefix": "ngValue",
+    "body": "ngValue=\"${0:name}\""
+  },
+
+  "RouterLink": {
+    "prefix": "routerLink",
+    "body": "routerLink=\"${0:route}\""
+  },
+  "QueryParams": {
+    "prefix": "[queryParams]",
+    "body": "[queryParams]=\"{$0}\""
+  },
+  "Fragment": {
+    "prefix": "fragment",
+    "body": "fragment=\"${0:name}\""
+  },
+  "QueryParamsHandling": {
+    "prefix": "queryParamsHandling",
+    "body": "queryParamsHandling=\"${0:strategy}\""
+  },
+  "PreserveFragment": {
+    "prefix": "[preserveFragment]",
+    "body": "[preserveFragment]=\"${0:expression}\""
+  },
+  "SkipLocationChange": {
+    "prefix": "[skipLocationChange]",
+    "body": "[skipLocationChange]=\"${0:expression}\""
+  },
+  "ReplaceUrl": {
+    "prefix": "[replaceUrl]",
+    "body": "[replaceUrl]=\"${0:expression}\""
+  },
+  "State": {
+    "prefix": "[state]",
+    "body": "[state]=\"{$0}\""
+  },
+  "RelativeTo": {
+    "prefix": "[relativeTo]",
+    "body": "[relativeTo]=\"${0:expression}\""
+  },
+  "RouterLinkActive": {
+    "prefix": "routerLinkActive",
+    "body": "routerLinkActive=\"${0:class}\""
+  },
+  "RouterLinkActiveOptions": {
+    "prefix": "[routerLinkActiveOptions]",
+    "body": "[routerLinkActiveOptions]=\"{exact: ${0:expression}}\""
+  },
+  "RouterOutlet": {
+    "prefix": "router-outlet",
+    "body": "router-outlet"
+  },
+
+  "NgTemplate": {
+    "prefix": "ng-template",
+    "body": "ng-template"
+  },
+  "NgContainer": {
+    "prefix": "ng-container",
+    "body": "ng-container"
+  }
+}
