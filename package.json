@@ -11,6 +11,9 @@
   "publisher": "datomarjanidze",
   "license": "License is provided in the root directory",
   "displayName": "VS Code Angular Template Snippets",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
   "categories": ["Snippets"],
   "contributes": {
     "snippets": [
