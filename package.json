@@ -1,6 +1,6 @@
 {
   "name": "vscode-angular-template-snippets",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "VS Code snippets for Angular templates, that can be used in HTML files",
   "repository": {
     "type": "git",
