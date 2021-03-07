@@ -1,0 +1,50 @@
+{
+  "RouterLink": {
+    "prefix": "routerLink",
+    "body": "routerLink=\"${0:route}\""
+  },
+  "QueryParams": {
+    "prefix": "[queryParams]",
+    "body": "[queryParams]=\"{$0}\""
+  },
+  "Fragment": {
+    "prefix": "fragment",
+    "body": "fragment=\"${0:name}\""
+  },
+  "QueryParamsHandling": {
+    "prefix": "queryParamsHandling",
+    "body": "queryParamsHandling=\"${0:strategy}\""
+  },
+  "PreserveFragment": {
+    "prefix": "[preserveFragment]",
+    "body": "[preserveFragment]=\"${0:expression}\""
+  },
+  "SkipLocationChange": {
+    "prefix": "[skipLocationChange]",
+    "body": "[skipLocationChange]=\"${0:expression}\""
+  },
+  "ReplaceUrl": {
+    "prefix": "[replaceUrl]",
+    "body": "[replaceUrl]=\"${0:expression}\""
+  },
+  "State": {
+    "prefix": "[state]",
+    "body": "[state]=\"{$0}\""
+  },
+  "RelativeTo": {
+    "prefix": "[relativeTo]",
+    "body": "[relativeTo]=\"${0:expression}\""
+  },
+  "RouterLinkActive": {
+    "prefix": "routerLinkActive",
+    "body": "routerLinkActive=\"${0:class}\""
+  },
+  "RouterLinkActiveOptions": {
+    "prefix": "[routerLinkActiveOptions]",
+    "body": "[routerLinkActiveOptions]=\"{exact: ${0:expression}}\""
+  },
+  "RouterOutlet": {
+    "prefix": "router-outlet",
+    "body": "router-outlet"
+  }
+}

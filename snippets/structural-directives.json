@@ -1,0 +1,10 @@
+{
+  "NgTemplate": {
+    "prefix": "ng-template",
+    "body": "ng-template"
+  },
+  "NgContainer": {
+    "prefix": "ng-container",
+    "body": "ng-container"
+  }
+}

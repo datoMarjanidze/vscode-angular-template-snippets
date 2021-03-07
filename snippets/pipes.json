@@ -1,0 +1,54 @@
+{
+  "AsyncPipe": {
+    "prefix": "| async",
+    "body": "| async"
+  },
+  "CurrencyPipe": {
+    "prefix": "| currency",
+    "body": "| currency"
+  },
+  "DatePipe": {
+    "prefix": "| date",
+    "body": "| date"
+  },
+  "DecimalPipe": {
+    "prefix": "| number",
+    "body": "| number"
+  },
+  "I18nPluralPipe": {
+    "prefix": "| i18nPlural",
+    "body": "| i18nPlural"
+  },
+  "I18nSelectPipe": {
+    "prefix": "| i18nSelect",
+    "body": "| i18nSelect"
+  },
+  "JsonPipe": {
+    "prefix": "| json",
+    "body": "| json"
+  },
+  "KeyValuePipe": {
+    "prefix": "| keyvalue",
+    "body": "| keyvalue"
+  },
+  "LowerCasePipe": {
+    "prefix": "| lowercase",
+    "body": "| lowercase"
+  },
+  "PercentPipe": {
+    "prefix": "| percent",
+    "body": "| percent"
+  },
+  "SlicePipe": {
+    "prefix": "| slice",
+    "body": "| slice"
+  },
+  "TitleCasePipe": {
+    "prefix": "| titlecase",
+    "body": "| titlecase"
+  },
+  "UpperCasePipe": {
+    "prefix": "| uppercase",
+    "body": "| uppercase"
+  }
+}

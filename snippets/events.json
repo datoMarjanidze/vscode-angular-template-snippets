@@ -1,0 +1,386 @@
+{
+  "Abort": {
+    "prefix": "(abort)=\"handler($event)\"",
+    "body": "(abort)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Animationcancel": {
+    "prefix": "(animationcancel)=\"handler($event)\"",
+    "body": "(animationcancel)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Animationend": {
+    "prefix": "(animationend)=\"handler($event)\"",
+    "body": "(animationend)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Animationiteration": {
+    "prefix": "(animationiteration)=\"handler($event)\"",
+    "body": "(animationiteration)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Auxclick": {
+    "prefix": "(auxclick)=\"handler($event)\"",
+    "body": "(auxclick)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Beforeinput": {
+    "prefix": "(beforeinput)=\"handler($event)\"",
+    "body": "(beforeinput)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Blur": {
+    "prefix": "(blur)=\"handler($event)\"",
+    "body": "(blur)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Cancel": {
+    "prefix": "(cancel)=\"handler($event)\"",
+    "body": "(cancel)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Canplay": {
+    "prefix": "(canplay)=\"handler($event)\"",
+    "body": "(canplay)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Canplaythrough": {
+    "prefix": "(canplaythrough)=\"handler($event)\"",
+    "body": "(canplaythrough)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Change": {
+    "prefix": "(change)=\"handler($event)\"",
+    "body": "(change)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Compositionstart": {
+    "prefix": "(compositionstart)=\"handler($event)\"",
+    "body": "(compositionstart)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Compositionupdate": {
+    "prefix": "(compositionupdate)=\"handler($event)\"",
+    "body": "(compositionupdate)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Compositionend": {
+    "prefix": "(compositionend)=\"handler($event)\"",
+    "body": "(compositionend)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Cuechange": {
+    "prefix": "(cuechange)=\"handler($event)\"",
+    "body": "(cuechange)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Click": {
+    "prefix": "(click)=\"handler($event)\"",
+    "body": "(click)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Close": {
+    "prefix": "(close)=\"handler($event)\"",
+    "body": "(close)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Contextmenu": {
+    "prefix": "(contextmenu)=\"handler($event)\"",
+    "body": "(contextmenu)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Curechange": {
+    "prefix": "(curechange)=\"handler($event)\"",
+    "body": "(curechange)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Dblclick": {
+    "prefix": "(dblclick)=\"handler($event)\"",
+    "body": "(dblclick)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Drag": {
+    "prefix": "(drag)=\"handler($event)\"",
+    "body": "(drag)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Dragend": {
+    "prefix": "(dragend)=\"handler($event)\"",
+    "body": "(dragend)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Dragenter": {
+    "prefix": "(dragenter)=\"handler($event)\"",
+    "body": "(dragenter)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Dragexit": {
+    "prefix": "(dragexit)=\"handler($event)\"",
+    "body": "(dragexit)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Dragleave": {
+    "prefix": "(dragexit)=\"handler($event)\"",
+    "body": "(dragexit)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Dragover": {
+    "prefix": "(dragover)=\"handler($event)\"",
+    "body": "(dragover)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Drop": {
+    "prefix": "(drop)=\"handler($event)\"",
+    "body": "(drop)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Durationchange": {
+    "prefix": "(durationchange)=\"handler($event)\"",
+    "body": "(durationchange)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Emptied": {
+    "prefix": "(emptied)=\"handler($event)\"",
+    "body": "(emptied)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Ended": {
+    "prefix": "(ended)=\"handler($event)\"",
+    "body": "(ended)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Error": {
+    "prefix": "(error)=\"handler($event)\"",
+    "body": "(error)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Focus": {
+    "prefix": "(focus)=\"handler($event)\"",
+    "body": "(focus)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Focusin": {
+    "prefix": "(focusin)=\"handler($event)\"",
+    "body": "(focusin)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Focusout": {
+    "prefix": "(focusout)=\"handler($event)\"",
+    "body": "(focusout)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Gotpointercapture": {
+    "prefix": "(gotpointercapture)=\"handler($event)\"",
+    "body": "(gotpointercapture)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Input": {
+    "prefix": "(input)=\"handler($event)\"",
+    "body": "(input)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Invalid": {
+    "prefix": "(invalid)=\"handler($event)\"",
+    "body": "(invalid)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Keydown": {
+    "prefix": "(keydown)=\"handler($event)\"",
+    "body": "(keydown)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Keypress": {
+    "prefix": "(keypress)=\"handler($event)\"",
+    "body": "(keypress)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Keyup": {
+    "prefix": "(keyup)=\"handler($event)\"",
+    "body": "(keyup)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Load": {
+    "prefix": "(load)=\"handler($event)\"",
+    "body": "(load)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Loadstart": {
+    "prefix": "(loadstart)=\"handler($event)\"",
+    "body": "(loadstart)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Loadeddata": {
+    "prefix": "(loadeddata)=\"handler($event)\"",
+    "body": "(loadeddata)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Loadedmetadata": {
+    "prefix": "(loadedmetadata)=\"handler($event)\"",
+    "body": "(loadedmetadata)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Lostpointercapture": {
+    "prefix": "(lostpointercapture)=\"handler($event)\"",
+    "body": "(lostpointercapture)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Mousedown": {
+    "prefix": "(mousedown)=\"handler($event)\"",
+    "body": "(mousedown)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Mouseenter": {
+    "prefix": "(mouseenter)=\"handler($event)\"",
+    "body": "(mouseenter)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Mouseleave": {
+    "prefix": "(mouseleave)=\"handler($event)\"",
+    "body": "(mouseleave)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Mousemove": {
+    "prefix": "(mousemove)=\"handler($event)\"",
+    "body": "(mousemove)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Mouseout": {
+    "prefix": "(mouseout)=\"handler($event)\"",
+    "body": "(mouseout)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Mouseover": {
+    "prefix": "(mouseover)=\"handler($event)\"",
+    "body": "(mouseover)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Mouseup": {
+    "prefix": "(mouseup)=\"handler($event)\"",
+    "body": "(mouseup)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Mousewheel": {
+    "prefix": "(mousewheel)=\"handler($event)\"",
+    "body": "(mousewheel)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Orientationchange": {
+    "prefix": "(orientationchange)=\"handler($event)\"",
+    "body": "(orientationchange)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Pause": {
+    "prefix": "(pause)=\"handler($event)\"",
+    "body": "(pause)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Play": {
+    "prefix": "(play)=\"handler($event)\"",
+    "body": "(play)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Playing": {
+    "prefix": "(playing)=\"handler($event)\"",
+    "body": "(playing)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Pointercancel": {
+    "prefix": "(pointercancel)=\"handler($event)\"",
+    "body": "(pointercancel)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Pointerdown": {
+    "prefix": "(pointerdown)=\"handler($event)\"",
+    "body": "(pointerdown)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Pointerenter": {
+    "prefix": "(pointerenter)=\"handler($event)\"",
+    "body": "(pointerenter)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Pointerleave": {
+    "prefix": "(pointerleave)=\"handler($event)\"",
+    "body": "(pointerleave)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Pointerlockchange": {
+    "prefix": "(pointerlockchange)=\"handler($event)\"",
+    "body": "(pointerlockchange)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Mozpointerlockchange": {
+    "prefix": "(mozpointerlockchange)=\"handler($event)\"",
+    "body": "(mozpointerlockchange)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Webkitpointerlockerchange": {
+    "prefix": "(webkitpointerlockerchange)=\"handler($event)\"",
+    "body": "(webkitpointerlockerchange)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Pointerlockerror": {
+    "prefix": "(pointerlockerror)=\"handler($event)\"",
+    "body": "(pointerlockerror)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Mozpointerlockerror": {
+    "prefix": "(mozpointerlockerror)=\"handler($event)\"",
+    "body": "(mozpointerlockerror)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Webkitpointerlockerror": {
+    "prefix": "(webkitpointerlockerror)=\"handler($event)\"",
+    "body": "(webkitpointerlockerror)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Pointermove": {
+    "prefix": "(pointermove)=\"handler($event)\"",
+    "body": "(pointermove)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Pointout": {
+    "prefix": "(pointout)=\"handler($event)\"",
+    "body": "(pointout)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Pointerover": {
+    "prefix": "(pointerover)=\"handler($event)\"",
+    "body": "(pointerover)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Pointerup": {
+    "prefix": "(pointerup)=\"handler($event)\"",
+    "body": "(pointerup)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Progress": {
+    "prefix": "(progress)=\"handler($event)\"",
+    "body": "(progress)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Ratechange": {
+    "prefix": "(ratechange)=\"handler($event)\"",
+    "body": "(ratechange)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Reset": {
+    "prefix": "(reset)=\"handler($event)\"",
+    "body": "(reset)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Resize": {
+    "prefix": "(resize)=\"handler($event)\"",
+    "body": "(resize)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Scroll": {
+    "prefix": "(scroll)=\"handler($event)\"",
+    "body": "(scroll)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Seeked": {
+    "prefix": "(seeked)=\"handler($event)\"",
+    "body": "(seeked)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Seeking": {
+    "prefix": "(seeking)=\"handler($event)\"",
+    "body": "(seeking)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Select": {
+    "prefix": "(select)=\"handler($event)\"",
+    "body": "(select)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Selectionchange": {
+    "prefix": "(selectionchange)=\"handler($event)\"",
+    "body": "(selectionchange)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Selectstart": {
+    "prefix": "(selectstart)=\"handler($event)\"",
+    "body": "(selectstart)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Show": {
+    "prefix": "(show)=\"handler($event)\"",
+    "body": "(show)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Sort": {
+    "prefix": "(sort)=\"handler($event)\"",
+    "body": "(sort)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Stalled": {
+    "prefix": "(stalled)=\"handler($event)\"",
+    "body": "(stalled)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Submit": {
+    "prefix": "(submit)=\"handler($event)\"",
+    "body": "(submit)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Suspend": {
+    "prefix": "(suspend)=\"handler($event)\"",
+    "body": "(suspend)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Timeupdate": {
+    "prefix": "(timeupdate)=\"handler($event)\"",
+    "body": "(timeupdate)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Volumechange": {
+    "prefix": "(volumechange)=\"handler($event)\"",
+    "body": "(volumechange)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Touchcancel": {
+    "prefix": "(touchcancel)=\"handler($event)\"",
+    "body": "(touchcancel)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Touchmove": {
+    "prefix": "(touchmove)=\"handler($event)\"",
+    "body": "(touchmove)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Touchstart": {
+    "prefix": "(touchstart)=\"handler($event)\"",
+    "body": "(touchstart)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Touchend": {
+    "prefix": "(touchend)=\"handler($event)\"",
+    "body": "(touchend)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Transitioncancel": {
+    "prefix": "(transitioncancel)=\"handler($event)\"",
+    "body": "(transitioncancel)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Transitionend": {
+    "prefix": "(transitionend)=\"handler($event)\"",
+    "body": "(transitionend)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Waiting": {
+    "prefix": "(waiting)=\"handler($event)\"",
+    "body": "(waiting)=\"${1:handler}(${2:\\$event})\"$0"
+  },
+  "Wheel": {
+    "prefix": "(wheel)=\"handler($event)\"",
+    "body": "(wheel)=\"${1:handler}(${2:\\$event})\"$0"
+  }
+}

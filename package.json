@@ -1,6 +1,6 @@
 {
   "name": "vscode-angular-template-snippets",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "VS Code snippets for Angular templates, that can be used in HTML files",
   "repository": {
     "type": "git",
@@ -19,7 +19,27 @@
     "snippets": [
       {
         "language": "html",
-        "path": "./snippets.json"
+        "path": "./snippets/common-directives.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/forms-directives.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/router-directives.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/structural-directives.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/pipes.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/events.json"
       }
     ]
   }
