@@ -3,8 +3,12 @@
     "prefix": "routerLink",
     "body": "routerLink=\"${0:route}\""
   },
+  "RouterLinkDynamicExpression": {
+    "prefix": "[routerLink]",
+    "body": "[routerLink]=\"${0:route}\""
+  },
   "QueryParams": {
-    "prefix": "[queryParams]",
+    "prefix": ["queryParams", "[queryParams]"],
     "body": "[queryParams]=\"{$0}\""
   },
   "Fragment": {

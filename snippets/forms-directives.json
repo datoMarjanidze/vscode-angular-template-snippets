@@ -3,27 +3,39 @@
     "prefix": "formArrayName",
     "body": "formArrayName=\"${0:name}\""
   },
+  "FormArrayNameDynamicExpression": {
+    "prefix": "[formArrayName]",
+    "body": "[formArrayName]=\"${0:name}\""
+  },
   "FormControlDirective": {
-    "prefix": "[formControl]",
+    "prefix": ["formControl", "[formControl]"],
     "body": "[formControl]=\"${0:control}\""
   },
   "FormControlName": {
     "prefix": "formControlName",
     "body": "formControlName=\"${0:name}\""
   },
+  "FormControlNameDynamicExpression": {
+    "prefix": "[formControlName]",
+    "body": "[formControlName]=\"${0:name}\""
+  },
   "FormGroupDirective": {
-    "prefix": "[formGroup]",
+    "prefix": ["formGroup", "[formGroup]"],
     "body": "[formGroup]=\"${0:expression}\""
   },
   "FormGroupName": {
     "prefix": "formGroupName",
     "body": "formGroupName=\"${0:name}\""
   },
+  "FormGroupNameDynamicExpression": {
+    "prefix": "[formGroupName]",
+    "body": "[formGroupName]=\"${0:name}\""
+  },
   "NgModel": {
     "prefix": "ngModel",
     "body": "ngModel"
   },
-  "NgModelOneWayPropertyBinding": {
+  "NgModelOneWayBinding": {
     "prefix": "[ngModel]",
     "body": "[ngModel]=\"${0:expression}\""
   },
@@ -32,15 +44,15 @@
     "body": "[(ngModel)]=\"${0:expression}\""
   },
   "NgModelOptions": {
-    "prefix": "[ngModelOptions]",
+    "prefix": ["ngModelOptions", "[ngModelOptions]"],
     "body": "[ngModelOptions]=\"{$0}\""
   },
   "NgModelChange": {
-    "prefix": "(ngModelChange)",
+    "prefix": ["ngModelChange", "(ngModelChange)"],
     "body": "(ngModelChange)=\"${0:expression}\""
   },
   "NgSubmit": {
-    "prefix": "(ngSubmit)",
+    "prefix": ["ngSubmit", "(ngSubmit)"],
     "body": "(ngSubmit)=\"${0:expression}\""
   },
   "NgModelGroup": {
@@ -50,5 +62,9 @@
   "NgValue": {
     "prefix": "ngValue",
     "body": "ngValue=\"${0:name}\""
+  },
+  "NgValueDynamicExpression": {
+    "prefix": "[ngValue]",
+    "body": "[ngValue]=\"${0:name}\""
   }
 }

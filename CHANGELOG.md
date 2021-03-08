@@ -1,3 +1,25 @@
+# 1.3.0 (2021-03-08)
+
+
+### Features
+
+* **common-directives:** add additional choices in some of the prefixes
+to enhance the matching process
+* **forms-directives:** add additional choices in some of the prefixes
+to enhance the matching process and additional objects of some of the
+snippets, for dynamic expression property binding
+* **router-directives:** add additional choices in some of the prefixes
+to enhance the matching process and additional objects of some of the
+snippets, for dynamic expression property binding
+
+### Improvements
+
+* **README**: add a screenshot of an example usage
+* **package.json:** add keywords; replace `displayName` with more
+enhanced specificity
+
+
+
 # 1.1.0 (2021-03-07)
 
 

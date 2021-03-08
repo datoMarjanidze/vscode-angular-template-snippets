@@ -1,6 +1,6 @@
-{
+{  
   "NgClass": {
-    "prefix": "ngClass",
+    "prefix": ["ngClass", "[ngClass]"],
     "body": "[ngClass]=\"${0:expression}\""
   },
   "NgClassSingle": {
@@ -8,7 +8,7 @@
     "body": "[class.${1:name}]=\"${0:expression}\""
   },
   "NgComponentOutlet": {
-    "prefix": "*ngComponentOutlet",
+    "prefix": ["ngComponentOutlet", "*ngComponentOutlet"],
     "body": "*ngComponentOutlet=\"${0:componentTypeExpression}\""
   },
   "NgComponentOutletInjector": {
@@ -24,71 +24,71 @@
     "body": "ngComponentOutletNgModuleFactory=\"${0:expression}\""
   },
   "NgFor": {
-    "prefix": "*ngFor",
+    "prefix": ["ngFor", "*ngFor"],
     "body": "*ngFor=\"let ${1:item} of ${0:items}\""
   },
   "NgForWithIndex": {
-    "prefix": "*ngForWithIndex",
+    "prefix": ["ngForWithIndex", "*ngForWithIndex"],
     "body": "*ngFor=\"let ${1:item} of ${2:items}; index as ${0:i}\""
   },
   "NgForWithCount": {
-    "prefix": "*ngForWithCount",
+    "prefix": ["ngForWithCount", "*ngForWithCount"],
     "body": "*ngFor=\"let ${1:item} of ${2:items}; count as ${0:c}\""
   },
   "NgForWithFirst": {
-    "prefix": "*ngForWithFirst",
+    "prefix": ["ngForWithFirst", "*ngForWithFirst"],
     "body": "*ngFor=\"let ${1:item} of ${2:items}; first as ${0:isFirst}\""
   },
   "NgForWithLast": {
-    "prefix": "*ngForWithLast",
+    "prefix": ["ngForWithLast", "*ngForWithLast"],
     "body": "*ngFor=\"let ${1:item} of ${2:items}; last as ${0:isLast}\""
   },
   "NgForWithEven": {
-    "prefix": "*ngForWithEven",
+    "prefix": ["ngForWithEven", "*ngForWithEven"],
     "body": "*ngFor=\"let ${1:item} of ${2:items}; even as ${0:isEven}\""
   },
   "NgForWithOdd": {
-    "prefix": "*ngForWithOdd",
+    "prefix": ["ngForWithOdd", "*ngForWithOdd"],
     "body": "*ngFor=\"let ${1:item} of ${2:items}; odd as ${0:isOdd}\""
   },
   "NgForWithTrackBy": {
-    "prefix": "*ngForWithTrackBy",
+    "prefix": ["ngForWithTrackBy", "*ngForWithTrackBy"],
     "body": "*ngFor=\"let ${1:item} of ${2:items}; trackBy: ${0:trackByFn}\""
   },
   "NgForOf": {
-    "prefix": "[ngForOf]",
+    "prefix": ["ngForOf", "[ngForOf]"],
     "body": "[ngForOf]=\"${0:items}\""
   },
   "NgForTrackBy": {
-    "prefix": "[ngForTrackBy]",
+    "prefix": ["ngForTrackBy", "[ngForTrackBy]"],
     "body": "[ngForTrackBy]=\"${0:trackByFn}\""
   },
   "NgIf": {
-    "prefix": "*ngIf",
+    "prefix": ["ngIf", "*ngIf"],
     "body": "*ngIf=\"${0:condition}\""
   },
   "NgIfElse": {
-    "prefix": "*ngIfElse",
+    "prefix": ["ngIfElse", "*ngIfElse"],
     "body": "*ngIf=\"${1:condition} else ${0:elseBlock}\""
   },
   "NgIfThenElse": {
-    "prefix": "*ngIfThenElse",
+    "prefix": ["ngIfThenElse", "*ngIfThenElse"],
     "body": "*ngIf=\"${1:condition}; then ${2:thenBlock} else ${0:elseBlock}\""
   },
   "NgIfAs": {
-    "prefix": "*ngIfAs",
+    "prefix": ["ngIfAs", "*ngIfAs"],
     "body": "*ngIf=\"${1:condition} as ${0:value}\""
   },
   "NgIfAsync": {
-    "prefix": "*ngIfAsync",
+    "prefix": ["ngIfAsync", "*ngIfAsync"],
     "body": "*ngIf=\"${0:condition} | async\""
   },
   "NgIfAsyncAs": {
-    "prefix": "*ngIfAsyncAs",
+    "prefix": ["ngIfAsyncAs", "*ngIfAsyncAs"],
     "body": "*ngIf=\"${1:condition} | async as ${0:value}\""
   },
   "NgPlural": {
-    "prefix": "[ngPlural]",
+    "prefix": ["ngPlural", "[ngPlural]"],
     "body": "[ngPlural]=\"${0:value}\""
   },
   "NgPluralCase": {
@@ -96,27 +96,27 @@
     "body": "ngPluralCase=\"${0:value}\""
   },
   "NgStyle": {
-    "prefix": "[ngStyle]",
+    "prefix": ["ngStyle", "[ngStyle]"],
     "body": "[ngStyle]=\"{${1:klass}: ${0:expression}}\""
   },
   "NgSwitch": {
-    "prefix": "[ngSwitch]",
+    "prefix": ["ngSwitch", "[ngSwitch]"],
     "body": "[ngSwitch]=\"${0:switch_expression}\""
   },
   "NgSwitchCase": {
-    "prefix": "*ngSwitchCase",
+    "prefix": ["ngSwitchCase", "*ngSwitchCase"],
     "body": "*ngSwitchCase=\"${0:match_expression}\""
   },
   "NgSwitchDefault": {
-    "prefix": "*ngSwitchDefault",
+    "prefix": ["ngSwitchDefault", "*ngSwitchDefault"],
     "body": "*ngSwitchDefault"
   },
   "NgTemplateOutlet": {
-    "prefix": "*ngTemplateOutlet",
+    "prefix": ["ngTemplateOutlet", "*ngTemplateOutlet"],
     "body": "*ngTemplateOutlet=\"${0:templateRefExp}\""
   },
   "NgTemplateOutletWithContext": {
-    "prefix": "*ngTemplateOutletWithContext",
+    "prefix": ["ngTemplateOutletWithContext", "*ngTemplateOutletWithContext"],
     "body": "*ngTemplateOutlet=\"${1:templateRefExp}; context: ${0:contextExp}\""
   }
 }
