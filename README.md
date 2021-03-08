@@ -3,7 +3,6 @@
 [![Version](https://vsmarketplacebadge.apphb.com/version/datomarjanidze.vscode-angular-template-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=datomarjanidze.vscode-angular-template-snippets)
 
 VS Code snippets for Angular templates, that can be used in HTML files.
-Angular version: 11.2.4
 
 ![](https://raw.githubusercontent.com/datoMarjanidze/vscode-angular-template-snippets/master/images/intellisense.jpg)<br/>
 

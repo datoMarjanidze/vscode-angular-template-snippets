@@ -1,3 +1,12 @@
+# 1.4.1 (2021-03-08)
+
+
+### Chore
+
+* **README:** remove unnecessary Angular version statement
+
+
+
 # 1.4.0 (2021-03-08)
 
 
