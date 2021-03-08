@@ -3,10 +3,6 @@
     "prefix": ["ngClass", "[ngClass]"],
     "body": "[ngClass]=\"${0:expression}\""
   },
-  "NgClassSingle": {
-    "prefix": "[class.name]",
-    "body": "[class.${1:name}]=\"${0:expression}\""
-  },
   "NgComponentOutlet": {
     "prefix": ["ngComponentOutlet", "*ngComponentOutlet"],
     "body": "*ngComponentOutlet=\"${0:componentTypeExpression}\""

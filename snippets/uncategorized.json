@@ -1,0 +1,22 @@
+{
+  "AttrDynamicExpression": {
+    "prefix": "[attr.name]",
+    "body": "[attr.${1:name}]=\"${2:expression}\"$0"
+  },
+  "ClassDynamicExpression": {
+    "prefix": "[class.name]",
+    "body": "[class.${1:name}]=\"${2:expression}\"$0"
+  },
+  "StyleDynamicExpression": {
+    "prefix": "[style.name]",
+    "body": "[style.${1:name}]=\"${2:expression}\"$0"
+  },
+  "InnerHTML": {
+    "prefix": "[innerHTML]",
+    "body": "[innerHTML]=\"${1:htmlSnippet}\"$0"
+  },
+  "HiddenDynamicExpression": {
+    "prefix": "[hidden]",
+    "body": "[hidden]=\"${1:expression}\"$0"
+  }
+}

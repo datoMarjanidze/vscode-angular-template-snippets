@@ -1,11 +1,10 @@
 {
   "name": "vscode-angular-template-snippets",
   "displayName": "Angular 11.2.4 HTML Snippets",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "VS Code snippets for Angular templates, that can be used in HTML files",
   "keywords": [
     "angular",
-    "snippets",
     "html",
     "template"
   ],
@@ -48,6 +47,10 @@
       {
         "language": "html",
         "path": "./snippets/events.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/uncategorized.json"
       }
     ]
   }

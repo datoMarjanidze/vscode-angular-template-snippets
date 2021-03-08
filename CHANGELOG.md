@@ -1,3 +1,15 @@
+# 1.4.0 (2021-03-08)
+
+
+### Features
+
+* **uncategorized:** add support for the following bindings: `attr`,
+`style`, `innerHTML` and `hidden`. Move `class` binding from
+`common-directives` to `uncategorized`, because it is not in a common
+module
+
+
+
 # 1.3.0 (2021-03-08)
 
 

@@ -168,3 +168,10 @@ Angular version: 11.2.4
 * transitionend
 * waiting
 * wheel
+
+### Supported uncategorized snippets
+* AttrDynamicExpression
+* ClassDynamicExpression
+* StyleDynamicExpression
+* InnerHTML
+* HiddenDynamicExpression
