@@ -65,7 +65,7 @@
   },
   "NgIfElse": {
     "prefix": ["ngIfElse", "*ngIfElse"],
-    "body": "*ngIf=\"${1:condition} else ${1:elseBlock}\"$0"
+    "body": "*ngIf=\"${1:condition} else ${2:elseBlock}\"$0"
   },
   "NgIfThenElse": {
     "prefix": ["ngIfThenElse", "*ngIfThenElse"],

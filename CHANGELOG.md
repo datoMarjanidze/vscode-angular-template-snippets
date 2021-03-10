@@ -1,3 +1,13 @@
+# 1.5.1 (2021-03-10)
+
+
+### Bug Fixes
+
+* **common-directives:** `NgIfElse` snippet - fix `elseBlock` tabstop
+numbering
+
+
+
 # 1.5.0 (2021-03-10)
 
 
