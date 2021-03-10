@@ -1,51 +1,51 @@
 {
   "RouterLink": {
     "prefix": "routerLink",
-    "body": "routerLink=\"${0:route}\""
+    "body": "routerLink=\"${1:route}\"$0"
   },
   "RouterLinkDynamicExpression": {
     "prefix": "[routerLink]",
-    "body": "[routerLink]=\"${0:route}\""
+    "body": "[routerLink]=\"${1:route}\"$0"
   },
   "QueryParams": {
     "prefix": ["queryParams", "[queryParams]"],
-    "body": "[queryParams]=\"{$0}\""
+    "body": "[queryParams]=\"{${1:name}: ${2:expression}}\"$0"
   },
   "Fragment": {
     "prefix": "fragment",
-    "body": "fragment=\"${0:name}\""
+    "body": "fragment=\"${1:name}\"$0"
   },
   "QueryParamsHandling": {
     "prefix": "queryParamsHandling",
-    "body": "queryParamsHandling=\"${0:strategy}\""
+    "body": "queryParamsHandling=\"${1:strategy}\"$0"
   },
   "PreserveFragment": {
     "prefix": "[preserveFragment]",
-    "body": "[preserveFragment]=\"${0:expression}\""
+    "body": "[preserveFragment]=\"${1:expression}\"$0"
   },
   "SkipLocationChange": {
     "prefix": "[skipLocationChange]",
-    "body": "[skipLocationChange]=\"${0:expression}\""
+    "body": "[skipLocationChange]=\"${1:expression}\"$0"
   },
   "ReplaceUrl": {
     "prefix": "[replaceUrl]",
-    "body": "[replaceUrl]=\"${0:expression}\""
+    "body": "[replaceUrl]=\"${1:expression}\"$0"
   },
   "State": {
     "prefix": "[state]",
-    "body": "[state]=\"{$0}\""
+    "body": "[state]=\"{${1:name}: ${2:expression}}\"$0"
   },
   "RelativeTo": {
     "prefix": "[relativeTo]",
-    "body": "[relativeTo]=\"${0:expression}\""
+    "body": "[relativeTo]=\"${1:expression}\"$0"
   },
   "RouterLinkActive": {
     "prefix": "routerLinkActive",
-    "body": "routerLinkActive=\"${0:class}\""
+    "body": "routerLinkActive=\"${1:class}\"$0"
   },
   "RouterLinkActiveOptions": {
     "prefix": "[routerLinkActiveOptions]",
-    "body": "[routerLinkActiveOptions]=\"{exact: ${0:expression}}\""
+    "body": "[routerLinkActiveOptions]=\"{exact: ${1:expression}}\"$0"
   },
   "RouterOutlet": {
     "prefix": "router-outlet",

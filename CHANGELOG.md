@@ -1,3 +1,16 @@
+# 1.5.0 (2021-03-10)
+
+
+### Features
+
+* **common-directives:** add the end of line tabstops
+* **forms-directives:** add the end of line tabstops; key-value tabstop
+for `NgModelOptions`
+* **router-directives:** add the end of line tabstops; key-value
+tabstops for the following snippets: `QueryParams`, `State`
+
+
+
 # 1.4.1 (2021-03-08)
 
 

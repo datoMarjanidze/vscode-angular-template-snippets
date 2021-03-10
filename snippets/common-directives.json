@@ -1,107 +1,107 @@
 {  
   "NgClass": {
     "prefix": ["ngClass", "[ngClass]"],
-    "body": "[ngClass]=\"${0:expression}\""
+    "body": "[ngClass]=\"${1:expression}\"$0"
   },
   "NgComponentOutlet": {
     "prefix": ["ngComponentOutlet", "*ngComponentOutlet"],
-    "body": "*ngComponentOutlet=\"${0:componentTypeExpression}\""
+    "body": "*ngComponentOutlet=\"${1:componentTypeExpression}\"$0"
   },
   "NgComponentOutletInjector": {
     "prefix": "ngComponentOutletInjector",
-    "body": "ngComponentOutletInjector=\"${0:expression}\""
+    "body": "ngComponentOutletInjector=\"${1:expression}\"$0"
   },
   "NgComponentOutletContent": {
     "prefix": "ngComponentOutletContent",
-    "body": "ngComponentOutletContent=\"${0:expression}\""
+    "body": "ngComponentOutletContent=\"${1:expression}\"$0"
   },
   "NgComponentOutletNgModuleFactory": {
     "prefix": "ngComponentOutletNgModuleFactory",
-    "body": "ngComponentOutletNgModuleFactory=\"${0:expression}\""
+    "body": "ngComponentOutletNgModuleFactory=\"${1:expression}\"$0"
   },
   "NgFor": {
     "prefix": ["ngFor", "*ngFor"],
-    "body": "*ngFor=\"let ${1:item} of ${0:items}\""
+    "body": "*ngFor=\"let ${1:item} of ${2:items}\"$0"
   },
   "NgForWithIndex": {
     "prefix": ["ngForWithIndex", "*ngForWithIndex"],
-    "body": "*ngFor=\"let ${1:item} of ${2:items}; index as ${0:i}\""
+    "body": "*ngFor=\"let ${1:item} of ${2:items}; index as ${3:i}\"$0"
   },
   "NgForWithCount": {
     "prefix": ["ngForWithCount", "*ngForWithCount"],
-    "body": "*ngFor=\"let ${1:item} of ${2:items}; count as ${0:c}\""
+    "body": "*ngFor=\"let ${1:item} of ${2:items}; count as ${3:c}\"$0"
   },
   "NgForWithFirst": {
     "prefix": ["ngForWithFirst", "*ngForWithFirst"],
-    "body": "*ngFor=\"let ${1:item} of ${2:items}; first as ${0:isFirst}\""
+    "body": "*ngFor=\"let ${1:item} of ${2:items}; first as ${3:isFirst}\"$0"
   },
   "NgForWithLast": {
     "prefix": ["ngForWithLast", "*ngForWithLast"],
-    "body": "*ngFor=\"let ${1:item} of ${2:items}; last as ${0:isLast}\""
+    "body": "*ngFor=\"let ${1:item} of ${2:items}; last as ${3:isLast}\"$0"
   },
   "NgForWithEven": {
     "prefix": ["ngForWithEven", "*ngForWithEven"],
-    "body": "*ngFor=\"let ${1:item} of ${2:items}; even as ${0:isEven}\""
+    "body": "*ngFor=\"let ${1:item} of ${2:items}; even as ${3:isEven}\"$0"
   },
   "NgForWithOdd": {
     "prefix": ["ngForWithOdd", "*ngForWithOdd"],
-    "body": "*ngFor=\"let ${1:item} of ${2:items}; odd as ${0:isOdd}\""
+    "body": "*ngFor=\"let ${1:item} of ${2:items}; odd as ${3:isOdd}\"$0"
   },
   "NgForWithTrackBy": {
     "prefix": ["ngForWithTrackBy", "*ngForWithTrackBy"],
-    "body": "*ngFor=\"let ${1:item} of ${2:items}; trackBy: ${0:trackByFn}\""
+    "body": "*ngFor=\"let ${1:item} of ${2:items}; trackBy: ${3:trackByFn}\"$0"
   },
   "NgForOf": {
     "prefix": ["ngForOf", "[ngForOf]"],
-    "body": "[ngForOf]=\"${0:items}\""
+    "body": "[ngForOf]=\"${1:items}\"$0"
   },
   "NgForTrackBy": {
     "prefix": ["ngForTrackBy", "[ngForTrackBy]"],
-    "body": "[ngForTrackBy]=\"${0:trackByFn}\""
+    "body": "[ngForTrackBy]=\"${1:trackByFn}\"$0"
   },
   "NgIf": {
     "prefix": ["ngIf", "*ngIf"],
-    "body": "*ngIf=\"${0:condition}\""
+    "body": "*ngIf=\"${1:condition}\"$0"
   },
   "NgIfElse": {
     "prefix": ["ngIfElse", "*ngIfElse"],
-    "body": "*ngIf=\"${1:condition} else ${0:elseBlock}\""
+    "body": "*ngIf=\"${1:condition} else ${1:elseBlock}\"$0"
   },
   "NgIfThenElse": {
     "prefix": ["ngIfThenElse", "*ngIfThenElse"],
-    "body": "*ngIf=\"${1:condition}; then ${2:thenBlock} else ${0:elseBlock}\""
+    "body": "*ngIf=\"${1:condition}; then ${2:thenBlock} else ${3:elseBlock}\"$0"
   },
   "NgIfAs": {
     "prefix": ["ngIfAs", "*ngIfAs"],
-    "body": "*ngIf=\"${1:condition} as ${0:value}\""
+    "body": "*ngIf=\"${1:condition} as ${2:value}\"$0"
   },
   "NgIfAsync": {
     "prefix": ["ngIfAsync", "*ngIfAsync"],
-    "body": "*ngIf=\"${0:condition} | async\""
+    "body": "*ngIf=\"${1:condition} | async\"$0"
   },
   "NgIfAsyncAs": {
     "prefix": ["ngIfAsyncAs", "*ngIfAsyncAs"],
-    "body": "*ngIf=\"${1:condition} | async as ${0:value}\""
+    "body": "*ngIf=\"${1:condition} | async as ${2:value}\"$0"
   },
   "NgPlural": {
     "prefix": ["ngPlural", "[ngPlural]"],
-    "body": "[ngPlural]=\"${0:value}\""
+    "body": "[ngPlural]=\"${1:value}\"$0"
   },
   "NgPluralCase": {
     "prefix": "ngPluralCase",
-    "body": "ngPluralCase=\"${0:value}\""
+    "body": "ngPluralCase=\"${1:value}\"$0"
   },
   "NgStyle": {
     "prefix": ["ngStyle", "[ngStyle]"],
-    "body": "[ngStyle]=\"{${1:klass}: ${0:expression}}\""
+    "body": "[ngStyle]=\"{${1:klass}: ${2:expression}}\"$0"
   },
   "NgSwitch": {
     "prefix": ["ngSwitch", "[ngSwitch]"],
-    "body": "[ngSwitch]=\"${0:switch_expression}\""
+    "body": "[ngSwitch]=\"${1:switch_expression}\"$0"
   },
   "NgSwitchCase": {
     "prefix": ["ngSwitchCase", "*ngSwitchCase"],
-    "body": "*ngSwitchCase=\"${0:match_expression}\""
+    "body": "*ngSwitchCase=\"${1:match_expression}\"$0"
   },
   "NgSwitchDefault": {
     "prefix": ["ngSwitchDefault", "*ngSwitchDefault"],
@@ -109,10 +109,10 @@
   },
   "NgTemplateOutlet": {
     "prefix": ["ngTemplateOutlet", "*ngTemplateOutlet"],
-    "body": "*ngTemplateOutlet=\"${0:templateRefExp}\""
+    "body": "*ngTemplateOutlet=\"${1:templateRefExp}\"$0"
   },
   "NgTemplateOutletWithContext": {
     "prefix": ["ngTemplateOutletWithContext", "*ngTemplateOutletWithContext"],
-    "body": "*ngTemplateOutlet=\"${1:templateRefExp}; context: ${0:contextExp}\""
+    "body": "*ngTemplateOutlet=\"${1:templateRefExp}; context: ${2:contextExp}\"$0"
   }
 }
