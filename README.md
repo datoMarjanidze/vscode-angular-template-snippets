@@ -174,3 +174,4 @@ VS Code snippets for Angular templates, that can be used in HTML files.
 * StyleDynamicExpression
 * InnerHTML
 * HiddenDynamicExpression
+* NgContent

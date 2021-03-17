@@ -18,5 +18,9 @@
   "HiddenDynamicExpression": {
     "prefix": "[hidden]",
     "body": "[hidden]=\"${1:expression}\"$0"
+  },
+  "NgContent": {
+    "prefix": "ng-content",
+    "body": "ng-content"
   }
 }

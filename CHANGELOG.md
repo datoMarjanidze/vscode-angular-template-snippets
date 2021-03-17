@@ -1,3 +1,12 @@
+# 1.5.2 (2021-03-17)
+
+
+### Features
+
+* **uncategorized:** add `NgContent` snippet
+
+
+
 # 1.5.1 (2021-03-10)
 
 
